@@ -1,7 +1,9 @@
 #ifndef _MIC_H_
 #define _MIC_H_ 1
 
+//CAM S3 UnitもCAM S3 Unit-5MPもどちらも同じで動く
 #define CAMERA_MODEL_M5STACK_CAMS3_UNIT_5MP
+#define CAMERA_MODEL_M5STACK_CAMS3_UNIT
 #include "mic_pins.h"
 #include "sdcard_pins.h"
 
