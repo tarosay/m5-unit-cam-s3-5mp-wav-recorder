@@ -1,41 +1,29 @@
-# Prerequisites
-*.d
+# Arduino build output files
+*.bin
+*.elf
+*.hex
+*.map
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Arduino IDE build directories
+build/
+*.pio/
+.pioenvs/
+.pio/
 
-# Precompiled Headers
-*.gch
-*.pch
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Linker files
-*.ilk
+# Editor backup files
+*~
+*.swp
+*.swo
 
-# Debugger Files
-*.pdb
+# VSCode / PlatformIO settings
+.vscode/
+.idea/
+*.code-workspace
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Arduino auto-save backups
+*.ino.backup
+*.ino.save
